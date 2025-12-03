@@ -1,5 +1,5 @@
 
-# 📊 Calculadora de Média de Notas — Versão Aprimorada
+# 📊 Calculadora de Média de Notas
 
 Este projeto apresenta um script em Python (`calculadora_complexa_notas.py`) desenvolvido para calcular a média aritmética de uma lista de notas ou pontuações, seguindo boas práticas de programação, modularização e tratamento robusto de erros.
 
