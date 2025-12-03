@@ -1,6 +1,3 @@
-Aqui está o **README.md refatorado**, mais organizado, direto, padronizado e com formatação profissional:
-
----
 
 # 📊 Calculadora de Média de Notas — Versão Aprimorada
 
