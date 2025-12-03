@@ -1,42 +1,59 @@
-📊 Calculadora de Média de Notas Aprimorada
+Aqui está o **README.md refatorado**, mais organizado, direto, padronizado e com formatação profissional:
 
-Este projeto contém um script Python (calculadora_complexa_notas.py) desenvolvido para calcular a média aritmética de uma lista de notas ou pontuações, incorporando boas práticas de programação e robustez no tratamento de dados.
+---
 
-📝 Origem e Melhoria do Código
+# 📊 Calculadora de Média de Notas — Versão Aprimorada
 
-O código original para o cálculo da média de notas foi baseado em exercícios e conceitos retirados de aulas iniciais de programação Python.
+Este projeto apresenta um script em Python (`calculadora_complexa_notas.py`) desenvolvido para calcular a média aritmética de uma lista de notas ou pontuações, seguindo boas práticas de programação, modularização e tratamento robusto de erros.
 
-O script original foi aprimorado para o módulo atual, implementando as seguintes melhorias:
+---
 
-Modularidade: A lógica principal de cálculo foi isolada em uma função reutilizável (calcular_media_ponderada) que aceita qualquer lista de notas como argumento.
+## 📝 Origem do Código e Melhorias Implementadas
 
-Tratamento de Erros: Adição de verificações para:
+O script foi originalmente baseado em exercícios introdutórios de Python e evoluído para uma versão mais completa e confiável. As principais melhorias incluem:
 
-Lista Vazia: Evita a divisão por zero.
+### 🔧 Melhorias Aplicadas
 
-Dados Não-Numéricos: Garante que apenas números sejam somados, retornando uma mensagem de erro clara caso encontre texto ou dados inválidos na lista.
+* **Modularidade:**
+  A lógica de cálculo foi isolada na função `calcular_media_ponderada`, permitindo reutilização e manutenção mais simples.
 
-Clareza de Variáveis: Uso de nomes de funções e variáveis descritivos, como lista_pontuacoes e somatorio_pontuacoes.
+* **Tratamento de Erros:**
 
-Demonstração: Uma função de exibição (exibir_resultado_processamento) demonstra o uso do módulo em cenários reais, incluindo exemplos de sucesso e falha (erros).
+  * **Lista vazia:** Impede divisão por zero.
+  * **Dados inválidos:** Verifica se todos os valores são numéricos, retornando uma mensagem de erro clara quando necessário.
 
-💡 Como Executar
+* **Código mais legível:**
+  Uso de nomes descritivos, como `lista_pontuacoes` e `somatorio_pontuacoes`, facilitando o entendimento do funcionamento.
 
-Salve o arquivo calculadora_complexa_notas.py.
+* **Função de Demonstração:**
+  A função `exibir_resultado_processamento` apresenta exemplos reais de uso, incluindo cenários de sucesso e falha.
 
-Execute-o diretamente no terminal:
+---
 
+## 💡 Como Executar o Script
+
+1. Salve o arquivo **`calculadora_complexa_notas.py`** no seu computador.
+2. Execute o script pelo terminal:
+
+```bash
 python calculadora_complexa_notas.py
+```
 
+---
 
-🚀 Fluxo de Trabalho Git (Controle de Versão)
+## 🚀 Fluxo de Trabalho Git Utilizado
 
-O desenvolvimento deste projeto segue o fluxo de trabalho Git padrão, conforme detalhado no arquivo guia_git_passo_a_passo.md. As etapas essenciais que garantiram a adição e o aprimoramento deste código foram:
+Este projeto segue um fluxo de versionamento organizado, descrito no arquivo **`guia_git_passo_a_passo.md`**. As principais etapas foram:
 
-Criação do Repositório (git init): Início do rastreamento de mudanças.
+* **Inicialização do Repositório (`git init`):**
+  Início do rastreamento do projeto.
 
-Desenvolvimento em Branch: Criação de uma branch isolada (ex: feature/melhoria-funcional) para trabalhar na refatoração e nos aprimoramentos.
+* **Criação de Branch de Desenvolvimento:**
+  Ex.: `feature/melhoria-funcional`
+  Permitiu realizar melhorias isoladamente sem afetar a branch principal.
 
-Commits: Registro das alterações incrementais com mensagens claras.
+* **Commits Incrementais:**
+  Mudanças registradas com mensagens claras e objetivas.
 
-Pull Request (PR): Envio da branch para revisão e posterior mesclagem na branch principal (main), garantindo a qualidade do código antes da integração final.
+* **Pull Request (PR):**
+  Envio das alterações para revisão antes de serem mescladas na branch **`main`**, garantindo organização e qualidade do código.
